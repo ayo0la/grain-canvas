@@ -1,0 +1,29 @@
+{
+  "name": "@ayoola/grain-canvas",
+  "version": "0.1.0",
+  "description": "Animated grain overlay + particle system canvas background. Zero dependencies, fully configurable.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "demo": "npx serve .",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
