@@ -1,4 +1,4 @@
-# @ayoola/grain-canvas
+# @ayo0la/grain-canvas
 
 Animated film grain + floating particle system as a canvas background. Zero dependencies. Fully configurable. Works anywhere.
 
@@ -9,7 +9,7 @@ Animated film grain + floating particle system as a canvas background. Zero depe
 ## Install
 
 ```bash
-npm install @ayoola/grain-canvas
+npm install @ayo0la/grain-canvas
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install @ayoola/grain-canvas
 ```
 
 ```js
-import { init } from '@ayoola/grain-canvas'
+import { init } from '@ayo0la/grain-canvas'
 
 const destroy = init(document.getElementById('bg'))
 
@@ -45,7 +45,7 @@ The canvas must have non-zero CSS dimensions before calling `init`. If it's 0×0
 All options are optional. The defaults below produce the effect shown in the demo.
 
 ```js
-import { init, defaults } from '@ayoola/grain-canvas'
+import { init, defaults } from '@ayo0la/grain-canvas'
 
 const destroy = init(canvas, {
   accentRatio: 0.4,
@@ -99,7 +99,7 @@ Mobile behaviour is automatic and not configurable:
 
 ```jsx
 import { useEffect, useRef } from 'react'
-import { init } from '@ayoola/grain-canvas'
+import { init } from '@ayo0la/grain-canvas'
 
 export function GrainBackground({ options }) {
   const canvasRef = useRef(null)
