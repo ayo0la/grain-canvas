@@ -2,7 +2,7 @@
 
 Animated film grain + floating particle system as a canvas background. Zero dependencies. Fully configurable. Works anywhere.
 
-**[Live demo](https://ayoolamorakinyo.com)** — seen on my portfolio site.
+**[Live demo](https://ayoola-morakinyo.vercel.app)** — seen on my portfolio site.
 
 ---
 
